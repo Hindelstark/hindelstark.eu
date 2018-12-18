@@ -157,7 +157,7 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: sans-serif;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
 		font-size: 1rem;
 		font-weight: 300;
 		line-height: 1.65;
@@ -204,7 +204,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 3rem;
+		font-size: 3.5rem;
 		line-height: 1.2;
 	}
 
@@ -249,7 +249,7 @@ input, select, textarea {
 
 	code {
 		border-radius: 4px;
-		font-family: monospace;
+		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25rem;
 		padding: 0.25rem 0.325rem;
@@ -257,7 +257,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: monospace;
+		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0 2rem 0;
 	}
@@ -2418,7 +2418,7 @@ input, select, textarea {
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: serif;
+				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -6782,7 +6782,7 @@ input, select, textarea {
 			.gallery.style2 > .forward:before, .gallery.style2 > .backward:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: sans-serif;
+				font-family: FontAwesome;
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
